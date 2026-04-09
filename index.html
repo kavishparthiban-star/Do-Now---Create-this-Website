@@ -1,39 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href = "style.css" rel = "stylesheet" type = "text/css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
-    </style>
-</head>
-<body>
-    <div class = "Title">
-    <h1>DO NOW WEBSITE</h1></div>
-    <br>
-    <P>
-       Your background color should be #FAF4D3.
-       <br><br>
-        Your font color should be #0C1618.
-        <br><br>
-        Use the Google Font named "Share Tech."
-        <br><br>
-        For your page heading, make the background color #004643, your text color
-        #FAF4D3 and center the text using the text-align property.
-        <br><br>
+html {
+margin: 0;
+padding: 0;
 
-        <div class = "Red">
-            Use a class to make one paragraph red.
-        </div>
-    </p>
-    <div class="Computer">
-        <p>Include an image of a computer with some text above it. Put a medium dotted border around the text and image using the color #004643.
-        <br>
-    </p>
-        <img src="Computer_Image.png" alt = "picture" width="300"> 
-    </div>
-    
-</body>
-</html>
+} .share-tech-regular {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} body {
+background-color: #faf4d3;
+font-family: Share Tech;
+margin: 0;
+} h1 {
+text-align: center;
+
+} .Computer {
+    border:medium dotted #004643;
+    padding: 2%;
+    padding-top: 0%
+
+} .Red {
+    color: red;
+
+} .Title {
+    background-color: #004643;
+    color: #faf4d3;
+    margin: -13px;
+    padding: 1%;
+} .red {
+background-color: red;
+width: 100px;
+height: 100px;
+margin: 5px;
+display: inline-block;
+} .blue {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: inline-block;
+} .green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: inline-block;
+}
