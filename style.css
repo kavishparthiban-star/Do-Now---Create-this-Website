@@ -1,15 +1,22 @@
-.share-tech-regular {
+html {
+margin: 0;
+padding: 0;
+
+} .share-tech-regular {
     font-family: "Share Tech", sans-serif;
     font-weight: 400;
     font-style: normal;
 } body {
 background-color: #faf4d3;
 font-family: Share Tech;
+margin: 0;
 } h1 {
 text-align: center;
 
 } .Computer {
     border:medium dotted #004643;
+    padding: 2%;
+    padding-top: 0%
 
 } .Red {
     color: red;
@@ -17,4 +24,25 @@ text-align: center;
 } .Title {
     background-color: #004643;
     color: #faf4d3;
+    margin: -13px;
+    padding: 1%;
+} .red {
+background-color: red;
+width: 100px;
+height: 100px;
+margin: 5px;
+display: inline-block;
+} .blue {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: inline-block;
+} .green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: inline-block;
 }
